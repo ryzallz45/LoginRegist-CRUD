@@ -1,0 +1,212 @@
+header {
+  background-image: url("https://images.unsplash.com/photo-1721294104781-4f00f6ffef99?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D");
+  padding: 200px;
+}
+header h1,
+p {
+  color: white;
+}
+main {
+  margin-top: 100px;
+}
+
+button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+button:hover {
+  transform: scale(1.05) translateZ(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: scale(0.95) translateZ(5px);
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  perspective: 1000px;
+  backface-visibility: hidden;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: rotateY(10deg) translateZ(15px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:active {
+  transform: rotateY(5deg) translateZ(10px);
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.search-icon-button {
+  background-color: #e3f2fd;
+  /*Warnaawaltombol(hijau)*/
+  color: hsl(0, 16%, 6%);
+  border: none;
+  padding: 8px;
+  border-radius: 40%;
+  /*Membuattombolmenjadibulat*/
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-border-radius: 40%;
+  -moz-border-radius: 40%;
+  -ms-border-radius: 40%;
+  -o-border-radius: 40%;
+}
+
+.search-icon-button:hover {
+  background-color: #1b51f2;
+  color: white;
+}
+
+.features,
+.pricing,
+.contact {
+  padding: 60px 0;
+}
+
+.feature-card,
+.pricing-card {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  /* 3D perspective */
+  perspective: 1000px;
+}
+
+.pricing-card:hover,
+.feature-card:hover {
+  transform: scale(1.05) translateZ(15px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pricing-card:active,
+.feature-card:active {
+  transform: scale(0.95) translateZ(10px);
+}
+
+.pricing-card h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.pricing-card p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.pricing-card ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+  margin: 10px 0;
+}
+
+.btn-primary,
+.btn-outline-light {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-outline-light:hover {
+  transform: scale(1.1) translateZ(15px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary:active,
+.btn-outline-light:active {
+  transform: scale(0.95) translateZ(10px);
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact .btn-primary {
+  width: 150px;
+  padding: 10px;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #333;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}

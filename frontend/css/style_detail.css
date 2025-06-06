@@ -1,0 +1,30 @@
+/* style.css */
+
+/* Style untuk modal */
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Style tombol hover */
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Style untuk gambar mahasiswa */
+img.rounded-circle {
+    border: 3px solid #4CAF50;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya Tabel */
+.table th, .table td {
+    vertical-align: middle;
+    font-size: 1.1rem;
+}
+
+.table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
