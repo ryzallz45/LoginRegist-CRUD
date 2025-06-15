@@ -1,7 +1,6 @@
 # LoginRegist-CRUD
 This is a simple project using php language with login, register, and CRUD features to manage organization members.
-
-
+ini adalah project crud sederhana menggunakan html
 ```
 git clone https://github.com/ryzallz45/LoginRegist-CRUD.git
 
